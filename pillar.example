@@ -1,0 +1,11 @@
+#template:
+#  lookup:
+#    master: template-master
+
+sftp:
+  users:
+    toto:
+      password: hashedpassword
+      dirs:
+        - dirdetoto
+	- dir2titi

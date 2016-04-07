@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+sftp:
+  pkg: openssh-server
+  config: '/etc/ssh/sshd_config'
+  service:
+    name: ssh
